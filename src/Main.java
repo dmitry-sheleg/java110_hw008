@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println("Список продуктов, возможных к покупке:");
         String[] products = {"Хлеб", "Масло", "Печенье", "Молоко", "Кефир"};
         int[] prices = {28, 132, 80, 62, 58};
         int[] counts = new int[products.length];
