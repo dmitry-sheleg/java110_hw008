@@ -11,7 +11,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         for (int i = 0; i < products.length; i++) {
-            System.out.println(i + 1 + ". " + products[i] + " " + prices[i] + " руб/шт"); // ????
+            System.out.println(i + 1 + ". " + products[i] + " " + prices[i] + " руб/шт");
         }
         while (true) {
             System.out.println("Выберите товар и количество или введите end:");
@@ -24,7 +24,6 @@ public class Main {
             int productCount = Integer.parseInt(parts[1]);
             counts[productNumber] += productCount;
             sumProducts += prices[productNumber] * productCount;
-
         }
 
         System.out.println("Ваша корзина:");
